@@ -3,7 +3,6 @@ let j = [1000,500,100,50,10,5,1];
 let k = [900,400,90,40,9,4,1];
 let c = "";
 let p = "";
-let str = "";
 
 function rconvert(a,i){
   if(a>3999){
@@ -51,7 +50,9 @@ if (a>=j[i] && i<=6){
 else if (a<j[i]&&a<k[i]){
   rconvert(a,i+1);
 }
-
 }
-rconvert(1459,i);
-console.log(str);
+
+let str = "";
+var number = window.prompt("Enter a number: "); 
+rconvert(number,i);
+alert("Your roman number is " + str); 
