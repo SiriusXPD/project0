@@ -1,0 +1,55 @@
+:root{
+  background:#303841;
+}
+.content{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+  margin-bottom:100px;
+  border: 2px solid blue;
+  border-radius: 50px 50px 50px 50px;
+  display:flex;
+  flex-direction:column;
+  width:70vw;
+  height:70vh;
+  justify-content:center;
+  align-items:center;
+  background:lightskyblue;
+  
+}
+
+input{
+  margin-bottom:20px;
+  height:30px;
+  width:40%;
+  text-align:center;
+  border-radius: 50px 50px 50px 50px;
+  background:#303841;
+  color:crimson;
+  font-size:20px;
+}
+
+button{
+ font-size:20px;
+  padding:5px 20px 5px 20px;
+  border-radius: 50px 50px 50px 50px;
+  background:dodgerblue;
+  color:white;
+}
+
+button:hover{
+  background:crimson;
+}
+h1{
+  color:white;
+  text-align:center;
+}
+#copy{
+  color:white;
+  text-align:center;
+}
+#user{
+margin-top:25px;
+color:crimson;
+font-size:20px;
+}
